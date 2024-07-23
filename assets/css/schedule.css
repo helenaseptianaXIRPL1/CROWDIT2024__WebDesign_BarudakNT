@@ -55,7 +55,7 @@ table {
 }
 
 thead {
-    background-color: #0d172c;
+    background-color: #86469C;
     color: white;
 }
 
@@ -73,7 +73,7 @@ td {
 }
 
 td:hover {
-    background-color: #d64a4a;
+    background-color: #FF7F45;
     color: white;
 }
 
@@ -114,7 +114,7 @@ td:hover {
 }
 
 #holiday-list li {
-    background-color: #0d172c;
+    background-color: #86469C;
     color: white;
     margin: 5px 0;
     padding: 10px;

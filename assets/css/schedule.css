@@ -1,5 +1,3 @@
-
-
 .calender-stuff {
     overflow-x: scroll;
     font-family: 'Arial', sans-serif;
@@ -25,6 +23,7 @@
     color: #000000;
     margin-bottom: 20px;
 }
+
 
 /* .navbar {
     display: flex;
@@ -56,7 +55,7 @@ table {
 }
 
 thead {
-    background-color: #7CA3F0;
+    background-color: #0d172c;
     color: white;
 }
 
@@ -69,12 +68,12 @@ td {
 }
 
 td {
-    background-color: #e6f2ff;
+    background-color: #ffffff;
     cursor: pointer;
 }
 
 td:hover {
-    background-color: #7CA3F0;
+    background-color: #d64a4a;
     color: white;
 }
 
@@ -86,7 +85,7 @@ td:hover {
     transform: translate(-50%, -50%);
     width: 300px;
     background-color: white;
-    border: 2px solid #7CA3F0;
+    border: 2px solid #0d172c;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
@@ -115,7 +114,7 @@ td:hover {
 }
 
 #holiday-list li {
-    background-color: #7CA3F0;
+    background-color: #0d172c;
     color: white;
     margin: 5px 0;
     padding: 10px;

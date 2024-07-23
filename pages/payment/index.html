@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Learning Tekin</title>
+    <link rel="stylesheet" href="../../assets/css/bootstrap.min.css">
+    <!-- <link rel="stylesheet" href="../../assets/css/payment.css"> -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.10.2/fullcalendar.min.css" rel="stylesheet">    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-sm navbar-light bg-white sticky-top shadow-sm">
+        <div class="container d-flex justify-content-between">
+      
+          <a href="../dashboard.html" class="d-flex align-items-center mb-2 mb-lg-0 text-dark text-decoration-none">
+            <img src="../../assets/images/logo1.png" alt="mdo" width="60" height="60" class="rounded-circle">
+            <span class="ms-3 text-center">NT University</span>
+          </a>
+          <div class="ms-5 ps-3"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsDropdown" aria-controls="navbarsDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+      
+          <div class="collapse navbar-collapse" id="navbarsDropdown">
+            <ul class="navbar-nav mx-auto mb-2 mb-sm-0">
+              <li class="nav-item active">
+                <a class="nav-link" aria-current="page" href="../dashboard.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../schedule/index.html">Schedule</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../forum/index.html">Forum</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../payment/index.html">Payment</a>
+              </li>
+            </ul>
+      
+            <div class="dropdown ms-auto">
+              <a href="#" class="d-block link-dark text-decoration-none dropdown-toggle" id="dropdownUser1" data-bs-toggle="dropdown" aria-expanded="false">
+                <img src="https://github.com/mdo.png" alt="mdo" width="32" height="32" class="rounded-circle">
+              </a>
+              <ul class="dropdown-menu text-small" aria-labelledby="dropdownUser1">
+                <li><a class="dropdown-item" href="../profile.html">Profile</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="../login.html">Sign out</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <div class="">
+        <nav class="my-4 ms-5 " aria-label="breadcrumb ">
+          <ol class="breadcrumb container">
+            <li class="breadcrumb-item"><a style="text-decoration-line: none;" href="../dashboard.html">Home</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Payment</li>
+          </ol>
+        </nav>
+      </div>
+
+    <main>
+      <div class="container">
+    
+        
+        <h3>Payment</h3>
+    
+        <hr>
+        <div class="container mt-1 mb-3 d-flex justify-content-end">
+    
+            <form class="row  g-3">
+                <div class="col-auto">
+                    <label for="academicYear" class="form-label">Tahun Akademik</label>
+                    <input type="text" class="form-control" id="academicYear" value="2023/2024">
+                </div>
+                <div class="col-auto">
+                    <label for="semester" class="form-label">Semester</label>
+                    <select class="form-select" id="semester">
+                        <option value="genap" selected>Genap</option>
+                        <option value="genap" selected>Ganjil</option>
+                        <!-- Add more options if needed -->
+                    </select>
+                </div>
+                <div class="col-auto align-self-end">
+                    <button type="submit" class="btn" style="background-color: #86469C; color: white;">Filter</button>
+                </div>
+            </form>
+        </div>
+         
+        <table class="table">
+            <thead>
+              <tr>
+                <th scope="col">No.</th>
+                <th scope="col">Tahun Akademik</th>
+                <th scope="col">Semester</th>
+                <th scope="col">Tanggal</th>
+                <th scope="col">Jumlah</th>
+                <th scope="col">Keterangan</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td>2023/2024</td>
+                <td>Ganjil</td>
+                <td>01-01-2024</td>
+                <td>Rp 300.00</td>
+                <td>Biaya DPPS bulan juni</td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>2023/2024</td>
+                <td>Ganjil</td>
+                <td>01-01-2024</td>
+                <td>Rp 300.00</td>
+                <td>Biaya DPPS bulan juni</td>
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td>2023/2024</td>
+                <td>Ganjil</td>
+                <td>01-01-2024</td>
+                <td>Rp 300.00</td>
+                <td>Biaya DPPS bulan juni</td>
+              </tr>
+            </tbody>
+          </table>
+         
+        </div>
+      </div>
+    </main>
+
+    <div class="bg-white">
+        <div class="container">
+            <div class="border-bottom border-secondary pt-4"></div>
+            <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 border-top">
+              <div class="col-md-4 d-flex align-items-center">
+                <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+                  <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
+                </a>
+                <span class="">© 2024 BarudakNT, Inc</span>
+              </div>
+          
+              <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+                <li class="ms-3"><a class="link-dark" href="#"><i class="fa-brands fa-linkedin fa-3x"></i></a></li>
+                <li class="ms-3"><a class="link-dark" href="#"><i class="fa-brands fa-square-instagram fa-3x"></i></a></li>
+                <li class="ms-3"><a class="link-dark" href="#"><i class="fa-brands fa-square-facebook fa-3x"></i></a></li>
+              </ul>
+            </footer>
+          </div>
+      </div>
+
+
+  <script>
+    feather.replace();
+  </script>
+    <script src="../../assets/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.4.0/jspdf.umd.min.js"></script>
+    <script src="../../assets/js/payment.js"></script>
+</body>
+
+</html>

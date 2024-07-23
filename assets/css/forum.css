@@ -4,7 +4,7 @@ main {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f0f8ff;
+    background-color: #ffffff;
 }
 
 .forum-container {
@@ -14,7 +14,7 @@ main {
 }
 
 .navbar-forum {
-    background-color: #b3e0ff;
+    background-color: #ffffff;
     padding: 10px;
     text-align: center;
 }
@@ -32,8 +32,8 @@ main {
 .sidebar {
     width: 250px;
     padding: 10px;
-    background-color: #e6f7ff;
-    border-right: 1px solid #b3e0ff;
+    background-color: #ffffff;
+    border-right: 1px solid #ffffff;
 }
 
 .member {
@@ -63,7 +63,7 @@ main {
 .announcement {
     margin-bottom: 20px;
     padding: 10px;
-    background-color: #e6f7ff;
+    background-color: #ffffff;
     border: 1px solid #b3e0ff;
 }
 
@@ -78,7 +78,7 @@ main {
 .comment {
     padding: 10px;
     margin-bottom: 10px;
-    background-color: #e6f7ff;
+    background-color: #ffffff;
     border: 1px solid #b3e0ff;
 }
 
@@ -173,7 +173,7 @@ main {
     width: 100%;
     height: 80px;
     margin-top: 10px;
-    border: 1px solid #b3e0ff;
+    border: 1px solid #ffffff;
     border-radius: 5px;
     padding: 10px;
 }

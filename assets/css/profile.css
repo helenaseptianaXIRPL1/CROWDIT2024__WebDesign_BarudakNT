@@ -342,7 +342,7 @@
 }
 
 .edit-photo-btn {
-    background-color: #2315a5;
+    background-color: #86469C;
     color: #fff;
     border: none;
     padding: 10px 20px;
@@ -354,7 +354,7 @@
 }
 
 .edit-photo-btn:hover {
-    background-color: #8c7a7a;
+    background-color: #ab5ac5;
 }
 
 .sidebar h2 {
@@ -419,7 +419,7 @@
 
 .save-button {
     display: inline-block;
-    background-color: #007bff;
+    background-color: #86469C;
     color: #fff;
     padding: 10px 20px;
     border: none;
@@ -430,7 +430,7 @@
 }
 
 .save-button:hover {
-    background-color: #0056b3;
+    background-color: #ab5ac5;
 }
 
 @media (max-width: 768px) {

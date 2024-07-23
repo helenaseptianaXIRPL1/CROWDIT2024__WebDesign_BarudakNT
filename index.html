@@ -7,6 +7,23 @@
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <style>
+      .navbar-nav .divider {
+    width: 1px;
+    background-color: #ffffff; /* Color of the divider */
+    margin: 0 10px; /* Adjust space around the divider */
+    height: auto; /* Full height of the parent */
+}
+
+@media (max-width: 576px) {
+    .navbar-nav .divider {
+        height: 1px;
+        width: 100%;
+        background-color: #ffffff; /* Color of the divider */
+        margin: 10px 0; /* Adjust space around the divider */
+    }
+}
+    </style>
 </head>
 <body>
 
@@ -16,30 +33,27 @@
     </div>
   </div>
 
-    <nav class="navbar navbar-expand-sm navbar-dark bg-dark sticky-top" style="width: 100%; position: fixed; top: 0;">
-        <div class="container d-flex">
-          <a class="navbar-brand me-auto" href="/"><img src="assets/images/logo1.png" alt="mdo" width="50" height="50" class="rounded-circle"><span class="ms-3 text-center">NT University</span></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample03" aria-controls="navbarsExample03" aria-expanded="false" aria-label="Toggle navigation">
+  <nav class="navbar navbar-expand-sm navbar-dark bg-dark sticky-top" style="width: 100%; position: fixed; top: 0;">
+    <div class="container d-flex">
+        <a class="navbar-brand me-auto" href="/"><img src="assets/images/logo1.png" alt="mdo" width="50" height="50" class="rounded-circle"><span class="ms-3 text-center">NT University</span></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample03" aria-controls="navbarsExample03" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
-          </button>
-      
-          <div class="collapse navbar-collapse" id="navbarsExample03">
+        </button>
+        <div class="collapse navbar-collapse" id="navbarsExample03">
             <ul class="navbar-nav ms-auto mb-2 mb-sm-0">
-
-              <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="#">Contact</a>
-              </li>
-              <li class="nav-item">
-                |
-              </li>
-              <li class="nav-item">
-                <button class="nav-link btn btn-primary text-white btn-lg" onclick="location.href='./pages/login.html'">Login</button>
-              </li>
+                <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="#">Contact</a>
+                </li>
+                <li class="nav-item divider">
+                    <!-- Divider here -->
+                </li>
+                <li class="nav-item">
+                    <button class="nav-link btn btn-primary text-white w-100" onclick="location.href='./pages/login.html'">Login</button>
+                </li>
             </ul>
-          </div>
         </div>
-      </nav>
-
+    </div>
+</nav>
     <header class="bg-hero"  >
         <div class="content"  >
             <div class="text-center py-0 py-sm-5 ">

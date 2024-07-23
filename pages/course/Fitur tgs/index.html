@@ -32,7 +32,7 @@
     }
 
     .card-header {
-      background-color: rgb(27, 27, 192);
+      background-color: #86469C;
       color: aliceblue;
       font-weight: bold;
       font-size: 20px;
@@ -53,7 +53,7 @@
       display: inline-block;
       cursor: pointer;
       padding: 10px;
-      background-color: #f5a208;
+      background-color: rgb(16, 57, 133);
       color: white;
       border-radius: 5px;
       text-align: center;
@@ -118,7 +118,7 @@
   </nav>
 
 
-  <div class="container">
+  <div class="container mt-5">
     <nav aria-label="breadcrumb">
       <ol class="breadcrumb">
         <li class="breadcrumb-item"><a style="text-decoration-line: none;" href="../../dashboard.html">Home</a></li>
@@ -230,7 +230,7 @@
   
     <!-- Center the button -->
     <div class="text-center my-4">
-      <button id="submitBtn" class="btn btn-primary" style="width: 50%;" onclick="">Submit</button>
+      <a href="../NameMatkul/index.html" class="btn " style="width: 50%; background-color: #FF7F45; color: aliceblue; ">Submit</a>
     </div>
 
     <br>
@@ -256,9 +256,8 @@
         </div>
     </div>
   </div>
-
-  <div class="container my-4" id="alertContainer"></div>
   
+
   <script>
     feather.replace();
 
@@ -267,19 +266,14 @@
       document.getElementById("file-name").textContent = "Selected file: " + fileName;
     });
 
-    const submitBtn = document.getElementById('submitBtn');
-    const url = '../NameMatkul/index.html'
-
-submitBtn.addEventListener('click', () => {
-  // Simulate successful form submission
-  // Replace this with your actual form submission logic
-
-  // Set a success flag in local storage
-  localStorage.setItem('successMessage', 'Your submission was successful!');
-  window.location.href = url;
-});
+    document.getElementById('submitBtn').addEventListener('click', function(event) {
+    event.preventDefault(); // Prevent the default action (navigation)
+    document.getElementById('successAlert').style.display = 'block'; // Show the success alert
+    setTimeout(function() {
+      window.location.href = '../NameMatkul/index.html'; // Redirect after a short delay
+    }, 2000); // Adjust the delay as needed (2000ms = 2 seconds)
+  });
   </script>
-  
   <script src="../../../assets/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
